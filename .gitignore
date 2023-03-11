@@ -1,0 +1,4 @@
+geckodriver.log
+.idea/
+sudo rm -rf ".\\Screenshots\\test_login.png"
+

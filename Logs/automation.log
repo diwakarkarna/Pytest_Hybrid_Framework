@@ -1,0 +1,14 @@
+03/11/2023 05:31:52 AM: INFO: **************************Driver is being initialized**********************
+03/11/2023 05:31:52 AM: INFO: ====== WebDriver manager ======
+03/11/2023 05:31:55 AM: INFO: Get LATEST geckodriver version for 110.0 firefox
+03/11/2023 05:32:05 AM: INFO: Driver [/home/karna/.wdm/drivers/geckodriver/linux64/0.32/geckodriver] found in cache
+03/11/2023 05:32:57 AM: INFO: **************************Driver is being closed**********************
+03/11/2023 05:33:04 AM: INFO: **************************Something went wrong**********************
+03/11/2023 05:33:04 AM: ERROR: Tried to run command without establishing a connection
+03/11/2023 05:33:04 AM: INFO: **************************Driver is being initialized**********************
+03/11/2023 05:33:04 AM: INFO: ====== WebDriver manager ======
+03/11/2023 05:33:05 AM: INFO: Get LATEST geckodriver version for 110.0 firefox
+03/11/2023 05:33:06 AM: INFO: Driver [/home/karna/.wdm/drivers/geckodriver/linux64/0.32/geckodriver] found in cache
+03/11/2023 05:33:51 AM: INFO: **************************Driver is being closed**********************
+03/11/2023 05:33:57 AM: INFO: **************************Something went wrong**********************
+03/11/2023 05:33:57 AM: ERROR: Tried to run command without establishing a connection
