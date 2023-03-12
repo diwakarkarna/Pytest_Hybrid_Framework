@@ -2,3 +2,7 @@ geckodriver.log
 .idea/
 sudo rm -rf ".\\Screenshots\\test_login.png"
 .venv
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*.py[cod]
+*$py.class
