@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 from pageobjects.login import LoginPage
+import platform
 
 
 class Test001Login:
@@ -15,7 +16,10 @@ class Test001Login:
         if act_title == "Your store. Login":
             assert True
         else:
-            self.driver.save_screenshot("./Screenshots/" + "test_homepageTitle.png")
+            if platform.system() == "Windows":
+                self.driver.save_screenshot(".\\Screenshots\\"+"test_homepage_title.png")
+            else:
+                self.driver.save_screenshot("./Screenshots/" + "test_homepage_title.png")
             #self.driver.close
             assert False
 
@@ -30,6 +34,9 @@ class Test001Login:
         if act_title == "Dashboard / nopCommerce administrationd":
             assert True
         else:
-            self.driver.save_screenshot("./Screenshots/" + "test_login.png")
+            if platform.system() == "Windows":
+                self.driver.save_screenshot("Screenshots\\"+"test_login.png")
+            else:
+                self.driver.save_screenshot("./Screenshots/" + "test_login.png")
             #self.driver.close
             assert False
